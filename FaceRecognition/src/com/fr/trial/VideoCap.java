@@ -5,7 +5,8 @@ import org.opencv.highgui.Highgui;
 import org.opencv.highgui.VideoCapture;        
 
 
-//gfhfghfghfvdgdgdbcbc
+//gfhfghfghfvdgdgdbcbc 
+// trial git commit to check the stuff
 // this is a working program to capture the image. It is fucking awesome. Make sure you take care of image name and path below
 // http://www.codeproject.com/Tips/719878/How-to-Use-OpenCV-with-Java-under-Eclipse-IDE 
 
@@ -24,7 +25,7 @@ public class VideoCap {
     	    		System.out.println("Frame Obtained");
     	    		System.out.println("Captured Frame Width " + 
     	    		frame.width() + " Height " + frame.height());
-    	    		Highgui.imwrite("jasmeet2Feb.jpg", frame);
+    	    		Highgui.imwrite("jasmeet3Feb.jpg", frame);
     	    		System.out.println("OK");
     	    		break;
     	    	}
